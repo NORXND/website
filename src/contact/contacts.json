@@ -1,0 +1,32 @@
+{
+	"Discord": {
+		"Name": "Contact-Discord",
+		"Icon": "Discord",
+		"Value": "NORXND#6717",
+		"Link": "https://discord.com/users/319774073649627137"
+	},
+	"E-Mail": {
+		"Name": "Contact-EMail",
+		"Icon": "EMail",
+		"Value": "szymon.piotr.grzegorzewski@gmail.com",
+		"Link": "mailto:szymon.piotr.grzegorzewski@gmail.com"
+	},
+	"E-Mail2": {
+		"Name": "Contact-EMail-Official",
+		"Icon": "EMail",
+		"Value": "contact@norxnd.cf",
+		"Link": "mailto:contact@norxnd.cf"
+	},
+	"FacebookMessenger": {
+		"Name": "Contact-FacebookMessenger",
+		"Icon": "Messenger",
+		"Value": "Norxnd Unname",
+		"Link": "https://facebook.com/norxnd"
+	},
+	"Twitter": {
+		"Name": "Contact-TwitterPM",
+		"Icon": "Twitter",
+		"Value": "@NORXND_Unname",
+		"Link": "https://twitter.com/NORXND_Unname"
+	}
+}

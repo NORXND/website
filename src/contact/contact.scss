@@ -1,0 +1,104 @@
+/*
+    src/contact/contacts.scss
+    --
+    Styles for Contact page.
+
+    Written by NORXND
+    (C) NORXND 2022
+*/
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0 var(--bs-gutter-x, 0.75rem);
+
+    background-color: var(--color-foreground);
+    border-radius: 0.3rem;
+
+    width: 35%;
+
+    @media all and (max-width: 992px) {
+        width: 50%;
+    }
+
+    @media all and (max-width: 576px) {
+        width: 95%;
+    }
+}
+
+.contact_title {
+    font-weight: 600;
+    margin-top: 0.5rem;
+
+    color: var(--bs-primary);
+}
+
+.contacts_list {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 0;
+    margin-bottom: 1rem;
+
+    border-radius: 0.25rem;
+}
+
+.contacts_list_item_container {
+    position: relative;
+    display: block;
+
+    padding: 0.5rem 1rem;
+
+    color: var(--bs-body-color);
+    text-decoration: none;
+
+    background-color: var(--color-list-background);
+    border-top: 3px solid var(--color-list-border);
+
+    &:first-child {
+        border-top: none;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    &:last-child {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+    }
+}
+
+.contacts_list_item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    fill: var(--bs-body-color);
+    &:hover {
+        fill: var(--bs-primary);
+    }
+}
+
+.contacts_list_item_element {
+    margin-right: 0.5rem;
+}
+
+.contact_icon {
+    height: 1rem;
+    width: auto;
+}
+
+.contacts_notice {
+    margin-left: 0.5rem;
+}
+
+.contacts_notice_link {
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

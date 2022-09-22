@@ -1,0 +1,56 @@
+{
+	"Primary": {
+		"Name": "Socials-Primary",
+		"Description": "Socials-PrimaryCategoryDescription",
+		"Items": {
+			"Twitter": {
+				"Name": "Socials-Twitter",
+				"Icon": "Twitter",
+				"Value": "@NORXND_Unname",
+				"Link": "https://twitter.com/NORXND_Unname"
+			},
+			"Facebook": {
+				"Name": "Socials-Facebook",
+				"Icon": "Facebook",
+				"Value": "Norxnd Unname",
+				"Link": "https://facebook.com/norxnd"
+			}
+		}
+	},
+	"Content": {
+		"Name": "Socials-Content",
+		"Description": "Socials-ContentCategoryDescription",
+		"Items": {
+			"YouTube": {
+				"Name": "Socials-YouTube",
+				"Icon": "YouTube",
+				"Value": "NORXND",
+				"Link": "https://www.youtube.com/c/NORXND"
+			},
+			"Github": {
+				"Name": "Socials-Github",
+				"Icon": "Github",
+				"Value": "NORXND",
+				"Link": "https://github.com/NORXND"
+			},
+			"SoundCloud": {
+				"Name": "Socials-SoundCloud",
+				"Icon": "SoundCloud",
+				"Value": "NORXND",
+				"Link": "https://soundcloud.com/norxnd"
+			}
+		}
+	},
+	"Secondary": {
+		"Name": "Socials-Secondary",
+		"Description": "Socials-SecondaryCategoryDescription",
+		"Items": {
+			"Roblox": {
+				"Name": "Socials-Roblox",
+				"Icon": "Roblox",
+				"Value": "NORXND_Unname",
+				"Link": "https://www.roblox.com/users/1091966176/profile"
+			}
+		}
+	}
+}

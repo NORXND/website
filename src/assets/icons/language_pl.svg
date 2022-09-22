@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Original Icon by Tweemoji (https://twemoji.twitter.com/)
+    Flag of PL
+    Modified by NORXND
+    Licensed under CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+-->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EEEEEE;}
+	.st1{fill:#DC143C;}
+</style>
+<g>
+	<path class="st0" d="M14.2,2.2H1.8C0.8,2.2,0,3,0,4v4h16V4C16,3,15.2,2.2,14.2,2.2z"/>
+	<path class="st1" d="M0,12c0,1,0.8,1.8,1.8,1.8h12.4c1,0,1.8-0.8,1.8-1.8V8H0V12z"/>
+</g>
+</svg>
