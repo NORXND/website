@@ -122,7 +122,7 @@ function Options(props) {
 			</h2>
 			<div className={styles.navbar_options_content}>{languagesList}</div>
 			<h2 className={styles.navbar_options_dropdown_title}>
-				{props.t('Theme')}
+				{props.t('Navbar-Theme')}
 			</h2>
 			<div className={styles.navbar_options_content}>{themesList}</div>
 		</div>

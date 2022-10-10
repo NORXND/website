@@ -48,6 +48,14 @@ const AboutMe = React.lazy(() =>
 	)
 );
 
+const Work = React.lazy(() =>
+	import(
+		/* webpackChunkName: "work" */
+		/* webpackFetch: true */
+		'./work/work'
+	)
+);
+
 const Socials = React.lazy(() =>
 	import(
 		/* webpackChunkName: "contact" */
@@ -175,6 +183,16 @@ function App(props) {
 								i18n={i18n}
 								setPageName={setPageName}
 							/>
+						</Suspense>
+					}
+				></Route>
+				<Route
+					path="/work"
+					element={
+						<Suspense
+							fallback={<div className={styles.loading}></div>}
+						>
+							<Work t={t} i18n={i18n} setPageName={setPageName} />
 						</Suspense>
 					}
 				></Route>
