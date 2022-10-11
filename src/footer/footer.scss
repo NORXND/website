@@ -8,49 +8,49 @@
 */
 
 .footer {
-    position: fixed;
-    right: 0;
-    left: 0;
-    bottom: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
 
-    z-index: 69;
+  z-index: 69;
 
-    background-color: var(--color-foreground);
+  background-color: var(--color-foreground);
 }
 
 .footer_socials_container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
 
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .footer_social_icon {
-    fill: var(--bs-body-color);
-    transition: 0.2s;
+  fill: var(--bs-body-color);
+  transition: 0.2s;
 
-    width: 1rem;
-    height: 1rem;
+  width: 1rem;
+  height: 1rem;
 
-    &:hover {
-        fill: var(--bs-primary);
-    }
+  &:hover {
+    fill: var(--bs-primary);
+  }
 }
 
 @mixin text-container {
-    text-align: center;
-    color: #8f8f8f;
-    white-space: nowrap;
+  text-align: center;
+  color: #8f8f8f;
+  white-space: nowrap;
 }
 
 .footer_funny_message_container {
-    @include text-container;
+  @include text-container;
 }
 
 .footer_copyright_container {
-    @include text-container;
-    margin: 0.25rem 0;
+  @include text-container;
+  margin: 0.25rem 0;
 }

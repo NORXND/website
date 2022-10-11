@@ -1,6 +1,6 @@
 {
-    "recommendations": [
-        "mgmcdermott.vscode-language-babel",
-        "esbenp.prettier-vscode"
-    ]
+  "recommendations": [
+    "mgmcdermott.vscode-language-babel",
+    "esbenp.prettier-vscode"
+  ]
 }

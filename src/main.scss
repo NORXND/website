@@ -43,11 +43,11 @@ $grays: ();
 
 /* Set custom theme colors */
 $theme-colors: (
-    "primary": $cyber-yellow,
-    "dark": $eerie-black,
-    "black": $rich-black-fogra-39,
-    "white": $white,
-    "darker-white": $platinum,
+  "primary": $cyber-yellow,
+  "dark": $eerie-black,
+  "black": $rich-black-fogra-39,
+  "white": $white,
+  "darker-white": $platinum,
 );
 
 @import "bootstrap/scss/variables";
@@ -63,59 +63,61 @@ $theme-colors: (
 
 /* Make <body> flexbox */
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Add transition to <a> */
 a {
-    color: var(--bs-body-color); // We need to make it like that or else light theme will fuck up
-    transition: 0.2s;
+  color: var(
+    --bs-body-color
+  ); // We need to make it like that or else light theme will fuck up
+  transition: 0.2s;
 }
 
 /* Themes */
 ._dark_theme {
-    --bs-body-bg: #0d0d0d;
-    --bs-body-color: #ffffff;
-    --color-foreground: #181818;
+  --bs-body-bg: #0d0d0d;
+  --bs-body-color: #ffffff;
+  --color-foreground: #181818;
 
-    --color-list-background: #2b2b2b;
-    --color-list-border: rgba(0, 0, 0, 0.125);
+  --color-list-background: #2b2b2b;
+  --color-list-border: rgba(0, 0, 0, 0.125);
 }
 
 ._light_theme {
-    --bs-body-bg: #ffffff;
-    --bs-body-color: #0d0d0d;
-    --color-foreground: #e6e6e6;
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #0d0d0d;
+  --color-foreground: #e6e6e6;
 
-    --color-list-background: #cccccc;
-    --color-list-border: rgba(255, 255, 255, 0.125);
+  --color-list-background: #cccccc;
+  --color-list-border: rgba(255, 255, 255, 0.125);
 }
 
 /* Main */
 .app {
-    display: flex;
+  display: flex;
 
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Loading */
 @keyframes loading_anim {
-    to {
-        transform: rotate(360deg) #{"/* rtl:ignore */"};
-    }
+  to {
+    transform: rotate(360deg) #{"/* rtl:ignore */"};
+  }
 }
 
 .loading {
-    display: inline-block;
-    margin: auto;
-    width: 4rem !important;
-    height: 4rem !important;
-    border: 0.4em solid #ffd300;
-    border-right-color: transparent;
-    border-radius: 50%;
-    -webkit-animation: 0.75s linear infinite loading_anim;
-    animation: 0.75s linear infinite loading_anim;
+  display: inline-block;
+  margin: auto;
+  width: 4rem !important;
+  height: 4rem !important;
+  border: 0.4em solid #ffd300;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: 0.75s linear infinite loading_anim;
+  animation: 0.75s linear infinite loading_anim;
 }

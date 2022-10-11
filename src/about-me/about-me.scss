@@ -8,48 +8,48 @@
 */
 
 .aboutme_container {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-	margin: 1rem auto 1rem auto;
+  margin: 1rem auto 1rem auto;
 
-	padding: 0 var(--bs-gutter-x, 0.75rem);
+  padding: 0 var(--bs-gutter-x, 0.75rem);
 
-	background-color: var(--color-foreground);
-	border-radius: 0.3rem;
+  background-color: var(--color-foreground);
+  border-radius: 0.3rem;
 
-	width: 50%;
+  width: 50%;
 
-	@media all and (max-width: 992px) {
-		width: 70%;
-	}
+  @media all and (max-width: 992px) {
+    width: 70%;
+  }
 
-	@media all and (max-width: 576px) {
-		width: 95%;
-	}
+  @media all and (max-width: 576px) {
+    width: 95%;
+  }
 }
 
 .aboutme_title {
-	font-weight: 600;
-	margin-top: 0.5rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
 
-	color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
 /* Fork of Bootstrap's Row but with 0 padding-left */
 .aboutme_no_padding_left {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .aboutme_header_image {
-	background-image: url('../assets/images/aboutme_header.webp');
+  background-image: url("../assets/images/aboutme_header.webp");
 
-	height: 100%;
-	width: auto;
+  height: 100%;
+  width: auto;
 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-	border-radius: 0.3rem;
+  border-radius: 0.3rem;
 }
