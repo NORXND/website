@@ -9,8 +9,6 @@
 import React, { useEffect } from "react";
 import styles from "./work.scss";
 import main_styles from "../main.scss";
-import { Trans } from "react-i18next";
-import { Link } from "react-router-dom";
 
 import { cpt, wt, mt, ost } from "./templates";
 

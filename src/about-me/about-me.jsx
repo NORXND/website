@@ -53,7 +53,9 @@ function Contact(props) {
               game I mentioned above.<br></br>
               For now, I'm not open for commissions or jobs but soon, I plan to
               open a website-making commission (Stay tuned for that!).<br></br>
-              What am I doing right now? Check the <Link to="/work">Work</Link>{" "}
+              What am I doing right now? Check the <Link to="/work">
+                Work
+              </Link>{" "}
               page. Where can you find me? Check the{" "}
               <Link to="/socials">Socials</Link> page.<br></br>I'm a furry. Yes.{" "}
               <br></br>That's all that you should know about me, I think so at
