@@ -44,7 +44,9 @@ function Home(props) {
             </Trans>
           </p>
         </div>
-        <div className={main_styles["col-xl-6"]}>
+        <div
+          className={`${main_styles["col-xl-6"]} ${styles.twitter_container}`}
+        >
           <TwitterTimelineEmbed
             autoHeight
             screenName="NORXND_Unname"

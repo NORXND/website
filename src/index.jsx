@@ -31,6 +31,14 @@ const Footer = React.lazy(() =>
   )
 );
 
+const CookiesConsent = React.lazy(() =>
+	import(
+		/* webpackChunkName: "cookie-consent" */
+		/* webpackPreload: true */
+		'./cookies-consent/cookies-consent'
+	)
+);
+
 // Pages
 const Home = React.lazy(() =>
   import(
@@ -102,19 +110,23 @@ class ErrorBoundary extends React.Component {
 }
 
 // Specify theme and language
+let cookie_consent_status = Cookies.get('cookie-consent');
 let default_language = "en";
 let default_theme = "dark";
 
-if (Cookies.get("lang") != null) {
-  default_language = Cookies.get("lang");
+if (Cookies.get('lang') != null && cookie_consent_status) {
+	default_language = Cookies.get('lang');
 }
 
-if (new URL(window.location.href).searchParams.get("lang") != null) {
-  default_language = new URL(window.location.href).searchParams.get("lang");
-  Cookies.set("lang", default_language, {
-    sameSite: "Lax",
-    expires: 3650,
-  });
+if (
+	new URL(window.location.href).searchParams.get('lang') != null &&
+	cookie_consent_status
+) {
+	default_language = new URL(window.location.href).searchParams.get('lang');
+	Cookies.set('lang', default_language, {
+		sameSite: 'Lax',
+		expires: 3650,
+	});
 }
 
 if (Cookies.get("theme") != null) {
@@ -133,73 +145,105 @@ function App(props) {
   useEffect(() => {
     // Set dark / light mode
     if (theme == "dark") {
-      Cookies.set("theme", "dark", {
-        sameSite: "Lax",
-        expires: 3650,
-      });
       document.body.className = styles._dark_theme;
+		if (cookie_consent_status) {
+			Cookies.set('theme', 'dark', {
+				sameSite: 'Lax',
+				expires: 3650,
+			});
+		}
     } else {
-      Cookies.set("theme", "light", {
-        sameSite: "Lax",
-        expires: 3650,
-      });
       document.body.className = styles._light_theme;
+		if (cookie_consent_status) {
+			Cookies.set('theme', 'light', {
+				sameSite: 'Lax',
+				expires: 3650,
+			});
+		}
     }
   }, [theme]);
 
   return (
-    <Router>
-      <Navbar
-        t={t}
-        i18n={i18n}
-        theme={theme}
-        setTheme={setTheme}
-        pageName={pageName}
-      />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <Suspense fallback={<div className={styles.loading}></div>}>
-              <Home t={t} i18n={i18n} theme={theme} setPageName={setPageName} />
-            </Suspense>
-          }
-        ></Route>
-        <Route
-          path="/about-me"
-          element={
-            <Suspense fallback={<div className={styles.loading}></div>}>
-              <AboutMe t={t} i18n={i18n} setPageName={setPageName} />
-            </Suspense>
-          }
-        ></Route>
-        <Route
-          path="/work"
-          element={
-            <Suspense fallback={<div className={styles.loading}></div>}>
-              <Work t={t} i18n={i18n} setPageName={setPageName} />
-            </Suspense>
-          }
-        ></Route>
-        <Route
-          path="/contact"
-          element={
-            <Suspense fallback={<div className={styles.loading}></div>}>
-              <Contact t={t} i18n={i18n} setPageName={setPageName} />
-            </Suspense>
-          }
-        ></Route>
-        <Route
-          path="/socials"
-          element={
-            <Suspense fallback={<div className={styles.loading}></div>}>
-              <Socials t={t} i18n={i18n} setPageName={setPageName} />
-            </Suspense>
-          }
-        ></Route>
-      </Routes>
-      <Footer t={t} i18n={i18n} />
-    </Router>
+		<Router>
+			<Navbar
+				t={t}
+				i18n={i18n}
+				theme={theme}
+				setTheme={setTheme}
+				pageName={pageName}
+			/>
+			{!cookie_consent_status && <CookiesConsent />}
+			<Routes>
+				<Route
+					path="/"
+					element={
+						<Suspense
+							fallback={<div className={styles.loading}></div>}
+						>
+							<Home
+								t={t}
+								i18n={i18n}
+								theme={theme}
+								setPageName={setPageName}
+							/>
+						</Suspense>
+					}
+				></Route>
+				<Route
+					path="/about-me"
+					element={
+						<Suspense
+							fallback={<div className={styles.loading}></div>}
+						>
+							<AboutMe
+								t={t}
+								i18n={i18n}
+								setPageName={setPageName}
+							/>
+						</Suspense>
+					}
+				></Route>
+				<Route
+					path="/work"
+					element={
+						<Suspense
+							fallback={<div className={styles.loading}></div>}
+						>
+							<Work t={t} i18n={i18n} setPageName={setPageName} />
+						</Suspense>
+					}
+				></Route>
+				<Route
+					path="/contact"
+					element={
+						<Suspense
+							fallback={<div className={styles.loading}></div>}
+						>
+							<Contact
+								t={t}
+								i18n={i18n}
+								setPageName={setPageName}
+							/>
+						</Suspense>
+					}
+				></Route>
+				<Route
+					path="/socials"
+					element={
+						<Suspense
+							fallback={<div className={styles.loading}></div>}
+						>
+							<Socials
+								t={t}
+								i18n={i18n}
+								setPageName={setPageName}
+							/>
+						</Suspense>
+					}
+				></Route>
+			</Routes>
+			<Footer t={t} i18n={i18n} />
+		</Router>
   );
 }
 
