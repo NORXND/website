@@ -15,7 +15,7 @@
   "Footer-FunnyMessage_3": "Comming Soon™",
   "Footer-FunnyMessage_4": "School is bad",
   "Footer-FunnyMessage_5": "Who let the dog out?!",
-  "Footer-FunnyMessage_6": "RU bad",
+  "Footer-FunnyMessage_6": "Glory to Generation Trains",
   "Footer-FunnyMessage_7": "Inertia was a fun time...",
   "Footer-FunnyMessage_8": "I think I should spend more time touching The Grass.",
   "Title-Home": "Home - NORXND",
@@ -23,6 +23,7 @@
   "Title-Work": "Work - NORXND",
   "Title-Contact": "Contact - NORXND",
   "Title-Socials": "Socials - NORXND",
+  "Title-Support": "Support Me - NORXND",
   "Home-Welcome": "Welcome,",
   "Home-Message_1": "Hello! I'm NORXND and you probably know me from Dispatch or more, generally speaking, Inertia. (Or from this other thing we should forget about)",
   "Home-Message_2": "Want to do more? Look at the <1>About Me</1> page! On the right side, you can see my feed. More you can find on the <5>Socials</5> page!",
@@ -53,5 +54,8 @@
   "Contact-EMail-Official": "E-Mail (Official)",
   "Contact-FacebookMessenger": "Facebook / Messenger",
   "Contact-TwitterPM": "Twitter Private Message",
-  "Contact-Notice": "Some of my <2>social media platforms</2> got an option to send a message. You can also contact me that way! Just note, I will answer faster if you use sites listed above ;)"
+  "Contact-Notice": "Some of my <2>social media platforms</2> got an option to send a message. You can also contact me that way! Just note, I will answer faster if you use sites listed above ;)",
+  "Support-Title": "Support Me!",
+  "Support-Description": "There are various ways to support my work. If you don't have money, you can simply play my games, subscribe to my YouTube channel and give a follow on Twitter (and SoundCloud for example), give a like to a post, video or track, join our community server! If you want to directly support me financially, you can use a few services below:",
+  "Support-Patron": "or become a Patron!"
 }

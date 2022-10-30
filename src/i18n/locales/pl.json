@@ -15,7 +15,7 @@
   "Footer-FunnyMessage_3": "Wkrótce™",
   "Footer-FunnyMessage_4": "Szkoła jest zła",
   "Footer-FunnyMessage_5": "Kto wypuścił psa?!",
-  "Footer-FunnyMessage_6": "RU złe",
+  "Footer-FunnyMessage_6": "Chwała Generation Trains",
   "Footer-FunnyMessage_7": "Inertia była fajnym czasem...",
   "Footer-FunnyMessage_8": "Myślę, że powinienem spędzić więcej czasu na dotykaniu Trawy.",
   "Title-Home": "Strona Główna - NORXND",
@@ -23,6 +23,7 @@
   "Title-Work": "Prace - NORXND",
   "Title-Contact": "Kontakt - NORXND",
   "Title-Socials": "Media Społecznościowe - NORXND",
+  "Title-Support": "Wesprzyj Mnie - NORXND",
   "Home-Welcome": "Witaj,",
   "Home-Message_1": "Witaj! Jestem NORXND i prawdopodobnie znasz mnie z Dispatch lub mówiąc bardziej generalnie, Inertii.",
   "Home-Message_2": "Chcesz zobaczyć więcej? Zobacz stronę <1>O Mnie</1>! Po prawej stronie, możesz zobaczyć mój feed. Więcej możesz znaleźć na stronie <5>Media Społecznościowe</5>",
@@ -53,5 +54,8 @@
   "Contact-EMail-Official": "E-Mail (Oficialny)",
   "Contact-FacebookMessenger": "Facebook / Messenger",
   "Contact-TwitterPM": "Prywatna Wiadomość na Twitterze",
-  "Contact-Notice": "Niektóre z moich <2>platform społecznościowych</2> mają opcję wysłania wiadomości. Możesz również skontaktować się ze mną w ten sposób! Pamiętaj tylko, że odpowiem szybciej, jeśli korzystasz ze stron wymienionych powyżej ;)"
+  "Contact-Notice": "Niektóre z moich <2>platform społecznościowych</2> mają opcję wysłania wiadomości. Możesz również skontaktować się ze mną w ten sposób! Pamiętaj tylko, że odpowiem szybciej, jeśli korzystasz ze stron wymienionych powyżej ;)",
+  "Support-Title": "Wesprzyj Mnie!",
+  "Support-Description": "Moją pracę można wspierać na różne sposoby. Jeśli nie masz pieniędzy, możesz po prostu grać w moje gry, zasubskrybować mój kanał YouTube i obserwować na Twitterze (i na przykład SoundCloud), polubić post, film lub utwór, dołączyć do naszego serwera społeczności! Jeśli chcesz bezpośrednio wesprzeć mnie finansowo, możesz skorzystać z kilku usług poniżej:",
+  "Support-Patron": "lub zostań Patronem!"
 }
