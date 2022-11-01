@@ -24,6 +24,7 @@
   "Title-Contact": "Contact - NORXND",
   "Title-Socials": "Socials - NORXND",
   "Title-Support": "Support Me - NORXND",
+  "Title-404": "404 - Not Found!!!11",
   "Home-Welcome": "Welcome,",
   "Home-Message_1": "Hello! I'm NORXND and you probably know me from Dispatch or more, generally speaking, Inertia. (Or from this other thing we should forget about)",
   "Home-Message_2": "Want to do more? Look at the <1>About Me</1> page! On the right side, you can see my feed. More you can find on the <5>Socials</5> page!",
@@ -57,5 +58,7 @@
   "Contact-Notice": "Some of my <2>social media platforms</2> got an option to send a message. You can also contact me that way! Just note, I will answer faster if you use sites listed above ;)",
   "Support-Title": "Support Me!",
   "Support-Description": "There are various ways to support my work. If you don't have money, you can simply play my games, subscribe to my YouTube channel and give a follow on Twitter (and SoundCloud for example), give a like to a post, video or track, join our community server! If you want to directly support me financially, you can use a few services below:",
-  "Support-Patron": "or become a Patron!"
+  "Support-Patron": "or become a Patron!",
+  "404-Title": "404 - Not Found!!!11",
+  "404-Text": "Oopsie, our qualified tracking dogs were searching here and there but they couldn't find <1 /> on this website! It probably doesn't exist! 😱"
 }

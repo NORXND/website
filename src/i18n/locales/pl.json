@@ -24,6 +24,7 @@
   "Title-Contact": "Kontakt - NORXND",
   "Title-Socials": "Media Społecznościowe - NORXND",
   "Title-Support": "Wesprzyj Mnie - NORXND",
+  "Title-404": "404 - Nie Znaleziono!!!11",
   "Home-Welcome": "Witaj,",
   "Home-Message_1": "Witaj! Jestem NORXND i prawdopodobnie znasz mnie z Dispatch lub mówiąc bardziej generalnie, Inertii.",
   "Home-Message_2": "Chcesz zobaczyć więcej? Zobacz stronę <1>O Mnie</1>! Po prawej stronie, możesz zobaczyć mój feed. Więcej możesz znaleźć na stronie <5>Media Społecznościowe</5>",
@@ -57,5 +58,7 @@
   "Contact-Notice": "Niektóre z moich <2>platform społecznościowych</2> mają opcję wysłania wiadomości. Możesz również skontaktować się ze mną w ten sposób! Pamiętaj tylko, że odpowiem szybciej, jeśli korzystasz ze stron wymienionych powyżej ;)",
   "Support-Title": "Wesprzyj Mnie!",
   "Support-Description": "Moją pracę można wspierać na różne sposoby. Jeśli nie masz pieniędzy, możesz po prostu grać w moje gry, zasubskrybować mój kanał YouTube i obserwować na Twitterze (i na przykład SoundCloud), polubić post, film lub utwór, dołączyć do naszego serwera społeczności! Jeśli chcesz bezpośrednio wesprzeć mnie finansowo, możesz skorzystać z kilku usług poniżej:",
-  "Support-Patron": "lub zostań Patronem!"
+  "Support-Patron": "lub zostań Patronem!",
+  "404-Title": "404 - Nie Znaleziono!!!11",
+  "404-Text": "Ups, nasze wykwalifikowane psy tropiące szukały tu i tam, ale nie mogły znaleźć <1 /> na tej stronie! Prawdopodobnie nie istnieje! 😱"
 }

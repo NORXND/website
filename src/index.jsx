@@ -88,6 +88,14 @@ const Support = React.lazy(() =>
   )
 );
 
+const NotFound = React.lazy(() =>
+  import(
+    /* webpackChunkName: "notfound" */
+    /* webpackFetch: true */
+    "./not-found-error/not-found-error"
+  )
+);
+
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -227,6 +235,14 @@ function App(props) {
           element={
             <Suspense fallback={<div className={styles.loading}></div>}>
               <Support t={t} i18n={i18n} setPageName={setPageName} />
+            </Suspense>
+          }
+        ></Route>
+        <Route
+          path="*"
+          element={
+            <Suspense fallback={<div className={styles.loading}></div>}>
+              <NotFound t={t} i18n={i18n} setPageName={setPageName} />
             </Suspense>
           }
         ></Route>

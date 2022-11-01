@@ -1,0 +1,39 @@
+/*
+    src/not-found-error/not-found-error.scss
+    --
+    Styles for 404 page.
+
+    Written by NORXND
+    (C) NORXND 2022
+*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem auto 1rem auto;
+
+  padding: 0 var(--bs-gutter-x, 0.75rem);
+
+  background-color: var(--color-foreground);
+  border-radius: 0.3rem;
+
+  width: 50%;
+
+  @media all and (max-width: 992px) {
+    width: 70%;
+  }
+
+  @media all and (max-width: 576px) {
+    width: 95%;
+  }
+}
+
+.title {
+  margin: 1rem;
+  color: #dc3545;
+}
+
+.text {
+  margin-top: 1rem;
+}
