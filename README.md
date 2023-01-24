@@ -1,6 +1,6 @@
 # NORXND's Official Website
 
-Official website visible at https://norxnd.cf made with React.
+Official website visible at https://norxnd.com made with React.
 The website is still unfinished and may contain various typos. Sorry for that.
 This project includes things such as localization or auto-generation of header menu.
 I am not accepting any PRs that for example change things such as about me text (unless it's a typo) or contacts and social media since it's obviously my website. ;)

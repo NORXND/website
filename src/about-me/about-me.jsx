@@ -25,7 +25,7 @@ function Contact(props) {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<link rel="canonical" href="https://norxnd.cf/about-me" />
+				<link rel="canonical" href="https://norxnd.com/about-me" />
 				<title>{props.t('Title-AboutMe')}</title>
 				<meta
 					name="description"
@@ -34,18 +34,18 @@ function Contact(props) {
 
 				<meta name="og:title" content="About Me - NORXND" />
 				<meta name="og:site_name" content="NORXND - Official Website" />
-				<meta name="og:url" content="https://norxnd.cf/about-me" />
+				<meta name="og:url" content="https://norxnd.com/about-me" />
 				<meta
 					name="og:description"
 					content="Official About Me Page for NORXND."
 				/>
 				<meta
 					name="og:image"
-					content={`https://norxnd.cf${og_image}`}
+					content={`https://norxnd.com${og_image}`}
 				/>
 				<meta
 					property="og:image:secure_url"
-					content={`https://norxnd.cf${og_image}`}
+					content={`https://norxnd.com${og_image}`}
 				/>
 				<meta name="og:image:width" content="1200" />
 				<meta name="og:image:height" content="627" />
@@ -57,7 +57,7 @@ function Contact(props) {
 				<meta name="twitter:title" content="About Me - NORXND" />
 				<meta
 					name="twitter:image"
-					content={`https://norxnd.cf${twitter_image}`}
+					content={`https://norxnd.com${twitter_image}`}
 				/>
 				<meta name="twitter:image:alt" content="NORXND" />
 				<meta name="twitter:site" content="@NORXND_Unname" />
