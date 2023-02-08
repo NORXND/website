@@ -4,48 +4,48 @@
     Styles for Home component.
 
     Written by NORXND
-    (C) NORXND 2022
+    (C) NORXND 2022 - Present
 */
 
 .home_container {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-  margin: 1rem auto 1rem auto;
+	margin: 1rem auto 1rem auto;
 
-  padding: 0 var(--bs-gutter-x, 0.75rem);
+	padding: 0 var(--bs-gutter-x, 0.75rem);
 
-  background-color: var(--color-foreground);
-  border-radius: 0.3rem;
+	background-color: var(--color-foreground);
+	border-radius: 0.3rem;
 
-  width: 50%;
+	width: 50%;
 
-  @media all and (max-width: 768px) {
-    width: 85%;
-  }
+	@media all and (max-width: 768px) {
+		width: 85%;
+	}
 
-  @media all and (max-width: 576px) {
-    width: 95%;
-  }
+	@media all and (max-width: 576px) {
+		width: 95%;
+	}
 }
 
 .home {
-  padding: 1vw;
-  min-height: 50vh;
+	padding: 1vw;
+	min-height: 50vh;
 }
 
 .home_welcome_title {
-  font-weight: 600;
-  margin-bottom: 0;
-  margin-left: -0.5rem;
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-left: -0.5rem;
 
-  color: var(--bs-primary);
+	color: var(--bs-primary);
 }
 
 .home_link {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .twitter_container {
-  min-height: 250px;
+	min-height: 250px;
 }

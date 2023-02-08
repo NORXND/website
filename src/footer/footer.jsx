@@ -4,7 +4,7 @@
     Main Component for footer.
 
     Written by NORXND
-    (C) NORXND 2022
+    (C) NORXND 2022 - Present
 */
 import React, { createRef, useEffect } from 'react';
 import styles from './footer.scss';

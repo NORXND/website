@@ -4,7 +4,7 @@
     Not Found (404) error page.
 
     Written by NORXND
-    (C) NORXND 2022
+    (C) NORXND 2022 - Present
 */
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';

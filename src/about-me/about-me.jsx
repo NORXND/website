@@ -4,7 +4,7 @@
     About Me page component.
 
     Written by NORXND
-    (C) NORXND 2022
+    (C) NORXND 2022 - Present
 */
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
@@ -85,7 +85,7 @@ function Contact(props) {
 							{/* prettier-ignore-start */}
 							<Trans i18nKey="AboutMe-Main" t={props.t}>
 								I'm NORXND, also known by my real name Norbert.
-								I'm a 15-year-old guy living in Koszalin,
+								I'm a 16-year-old guy living in Koszalin,
 								Poland.
 								<br></br>
 								I'm a hobbyist programming student. I also
