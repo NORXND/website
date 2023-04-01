@@ -33,7 +33,7 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.14",
     "bootstrap": "^5.2.0",
     "i18next": "^21.8.15",
     "js-cookie": "^3.0.1",
