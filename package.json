@@ -41,7 +41,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.18.3",
-    "react-router-dom": "^6.8.1",
+    "react-router-dom": "^6.9.0",
     "react-twitter-embed": "^4.0.4"
   }
 }
